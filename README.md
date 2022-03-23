@@ -20,6 +20,7 @@ flutter run pub flutter_launcher_icons:main
 
 ## Packages
 > dependencies
+
 | Package Name | Version |
 | --- | --- |
 | freezed_annotation | latest |
