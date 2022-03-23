@@ -19,7 +19,7 @@ samples, guidance on mobile development, and a full API reference.
 flutter run pub flutter_launcher_icons:main
 
 ## Packages
-
+> dependencies
 | Package Name | Version |
 | --- | --- |
 | freezed_annotation | latest |
