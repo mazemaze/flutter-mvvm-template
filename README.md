@@ -15,11 +15,8 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-
-flutter run pub flutter_launcher_icons:main
-
 ## Packages
-> dependencies
+> Dependencies
 
 | Package Name | Version |
 | --- | --- |
@@ -27,10 +24,24 @@ flutter run pub flutter_launcher_icons:main
 | flutter_riverpod | latest |
 | hooks_riverpod | latest |
 
-flutter_launcher_icons
-build_runner
-freezed
- json_serializable
+> Dev_Dependencies
+
+| Package Name | Version |
+| --- | --- |
+| build_runner | latest |
+| flutter_launcher_icons | latest |
+| freezed | latest |
+| json_serializable | latest |
+
+
+## Generate Icons
+
+```
+flutter run pub flutter_launcher_icons:main
+```
+
+## Generate Freezed Files
+
 ```
 //一度のみ作成
 flutter pub run build_runner build --delete-conflicting-outputs
