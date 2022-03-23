@@ -30,6 +30,7 @@ flutter pub get
 
 
 ## Generate Icons
+Place a png file into assets/icon/***.png 
 
 ```
 flutter run pub flutter_launcher_icons:main
