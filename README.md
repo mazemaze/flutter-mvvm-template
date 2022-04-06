@@ -13,20 +13,20 @@ flutter pub get
 ## Packages
 > Dependencies
 
-| Package Name | Version |
-| --- | --- |
-| freezed_annotation | latest |
-| flutter_riverpod | latest |
-| hooks_riverpod | latest |
+| Package Name | Version | URL |
+| --- | --- | --- |
+| freezed_annotation | latest | https://pub.dev/packages/freezed_annotation |
+| flutter_riverpod | latest | https://riverpod.dev/ja/ |
+| hooks_riverpod | latest | https://riverpod.dev/ja/ |
 
 > Dev_Dependencies
 
-| Package Name | Version |
-| --- | --- |
-| build_runner | latest |
+| Package Name | Version | URL |
+| --- | --- | --- |
+| build_runner | latest | https://pub.dev/packages/flutter_launcher_icons |
 | flutter_launcher_icons | latest |
-| freezed | latest |
-| json_serializable | latest |
+| freezed | latest | https://pub.dev/packages/freezed |
+| json_serializable | latest | https://pub.dev/packages/json_serializable |
 
 
 ## Generate Icons
@@ -37,6 +37,7 @@ flutter run pub flutter_launcher_icons:main
 ```
 
 ## Generate Freezed Files
+
 
 ```
 //genarate files once
