@@ -37,7 +37,28 @@ flutter run pub flutter_launcher_icons:main
 ```
 
 ## Generate Freezed Files
+ベースのコードを元にimmutableなコードを自動生成してくれる。
+json_serializableでjson型の変換処理も自動生成してくれる。
 
+*注意点として、クラス内の変数名はjsonで帰ってくる値と同じ名前にする必要がある。
+
+Example:
+```
+//fileName.freezed.dart
+part 'user.freezed.dart';
+
+//fileName.g.dart
+part 'user.g.dart';
+
+@freezed
+class User with _$User {
+  const factory User({
+    required String id,
+    required String email,
+  }) = _User;
+  factory User.fromJson(Map<String, dynamic> json) => _$UserFromJson(json);
+}
+```
 
 ```
 //genarate files once
