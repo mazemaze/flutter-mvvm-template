@@ -11,10 +11,10 @@ flutter pub get
 ```
 
 ## Structure
-> data
+### data
 Responsible for repositories, model files and etc.
 
-> ui
+### ui
 Responsible for ui files and view models.
 
 
