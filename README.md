@@ -44,10 +44,10 @@ json_serializableでjson型の変換処理も自動生成してくれる。
 
 Example:
 ```
-//fileName.freezed.dart
+//file_name.freezed.dart
 part 'user.freezed.dart';
 
-//fileName.g.dart
+//file_name.g.dart
 part 'user.g.dart';
 
 @freezed
