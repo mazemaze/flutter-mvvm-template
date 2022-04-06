@@ -23,8 +23,8 @@ flutter pub get
 
 | Package Name | Version | URL |
 | --- | --- | --- |
-| build_runner | latest | https://pub.dev/packages/flutter_launcher_icons |
-| flutter_launcher_icons | latest |
+| build_runner | latest | https://pub.dev/packages/build_runner |
+| flutter_launcher_icons | latest | https://pub.dev/packages/flutter_launcher_icons |
 | freezed | latest | https://pub.dev/packages/freezed |
 | json_serializable | latest | https://pub.dev/packages/json_serializable |
 
