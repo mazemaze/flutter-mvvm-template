@@ -12,7 +12,11 @@ flutter pub get
 
 ## Structure
 > data
+Responsible for repositories, model files and etc.
+
 > ui
+Responsible for ui files and view models.
+
 
 ## Packages
 > Dependencies
