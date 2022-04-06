@@ -44,6 +44,8 @@ json_serializableでjson型の変換処理も自動生成してくれる。
 
 Example:
 ```
+import 'package:freezed_annotation/freezed_annotation.dart';
+
 //file_name.freezed.dart
 part 'user.freezed.dart';
 
