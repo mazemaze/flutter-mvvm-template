@@ -10,6 +10,10 @@ Start with a command below.
 flutter pub get
 ```
 
+## Structure
+> data
+> ui
+
 ## Packages
 > Dependencies
 
